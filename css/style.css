@@ -327,6 +327,10 @@ img {
 }
 
 .portfolio-card {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 40px 32px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     position: absolute;
     top: 0;
     left: 0;
@@ -358,8 +362,13 @@ img {
 
 .portfolio-list {
     width: calc((100% - 48px) / 3);
+
 }
 
+.portfolio-list:hover{
+    box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .footer {
     background-color: rgb(46, 47, 66);
     padding: 100px 0
