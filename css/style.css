@@ -84,7 +84,12 @@ display: block;
 }
 
 .section-title {
-background-color: #2E2F42;
+background: linear-gradient(rgba(46, 47, 66, 0.7),
+  rgba(46, 47, 66, 0.7)),
+    url(/images/img11.jpeg);
+background-position: center;
+background-size: cover;
+
 padding: 188px 0;
 
 }
@@ -122,6 +127,17 @@ min-width: 169px;
 .features {
 padding-top:120px;
 padding-bottom:120px;
+}
+.pre-features-container{
+    
+   background-color: rgb(244, 244, 253);
+   width: 264px;
+   height: 112px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 1px solid rgba(142, 143, 153, 1);
+   border-radius: 4px;
 }
 
 .visually-hidden {
@@ -195,6 +211,22 @@ background-color: #FFFFFF;
 width: calc((100% - 72px) / 4);
 border-radius: 0px 0px 4px 4px;
 }
+.div-product-items{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 8px;
+}
+.product-icons{
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius:100px;
+    background-color:rgba(77, 90, 229, 1)
+
+}
 
 .thrp {
     margin-bottom: 8px;
@@ -246,11 +278,32 @@ display: flex;
     gap: 48px 24px;
 }
 
+.portfolio-list:hover .portfolio-card {
+transform: translateY(0);
+}
+.portfolio-card{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    font-size: 16px;
+    background-color: rgb(77, 90, 229);
+    height: 100%;
+    color: #F4F4FD;
+    transform: translateY(100%);
+    transition:transform 300ms linear;
+}
+.div-portfolio-card{
+    position: relative;
+    overflow: hidden;
+}
 .portfolio
 {
     padding-top: 120px;
     padding-bottom: 120px;
 }
+
+
 .portfolio-product{
 padding: 32px 16px;
 border: 1px solid #e7e9fc;
@@ -340,7 +393,9 @@ font-size: 18px;
     line-height: 1.5;
     font-family: Raleway, sans-serif;
 }
-
+.footer-container{
+    display: flex;
+}
 .footer-logo{
         display: inline-block;
             margin-bottom: 16px;
