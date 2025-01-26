@@ -227,12 +227,12 @@ img {
     color: #434455;
 }
 
-.sectthree {
+.team-sec {
     background-color: #f4f4fd;
     padding: 120px 0;
 }
 
-.teamhead {
+.team-h {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -242,12 +242,12 @@ img {
     margin-bottom: 72px;
 }
 
-.threeul {
+.team-ul {
     display: flex;
     gap: 24px;
 }
 
-.lisectthree {
+.team-li {
     background-color: #ffffff;
     border-radius: 0px 0px 4px 4px;
     width: calc((100% - 3 * 24px) / 4);
@@ -256,11 +256,11 @@ img {
         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.threediv {
+.team-ul-div {
     padding: 32px 0;
 }
 
-.ourthree {
+.team-hh {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
@@ -270,23 +270,23 @@ img {
     text-align: center;
 }
 
-.threepar {
+.team-p {
     text-align: center;
     margin-bottom: 8px;
 }
 
-.socialul {
+.soc-ul {
     display: flex;
     justify-content: center;
     gap: 24px;
 }
 
-.socialli {
+.soc-li {
     width: 40px;
     height: 40px;
 }
 
-.socialalink {
+.soc-link {
     width: 100%;
     height: 100%;
     background-color: #4d5ae5;
@@ -297,12 +297,12 @@ img {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.socialalink:hover,
-.socialalink:focus {
+.soc-link:hover,
+.soc-link:focus {
     background-color: #404bbf;
 }
 
-.socialsvg {
+.soc-svg {
     fill: #f4f4fd;
 }
 
