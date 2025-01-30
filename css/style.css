@@ -47,14 +47,11 @@ img {
     margin: 0 auto;
 }
 
-
 .current {
     position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: #404bbf;
 }
-
-
 
 .current::after {
     content: '';
@@ -68,7 +65,6 @@ img {
     opacity: 0;
     background-color: #404bbf;
 }
-
 
 .header-nav-list .header-nav-item:first-child .nav-a:hover::after {
     opacity: 1;
@@ -118,10 +114,10 @@ img {
     letter-spacing: 0.02em;
     padding-top: 24px;
     padding-bottom: 24px;
-    color: #434455;
+    color: #404bbf;
+   
     display: block;
 }
-
 .section-title {
     background: linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
